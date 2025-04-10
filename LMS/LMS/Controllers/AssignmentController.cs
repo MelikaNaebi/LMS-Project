@@ -1,6 +1,7 @@
 ﻿using LMS.Dto;
 using LMS.Interfaces;
 using LMS.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -17,9 +18,9 @@ namespace LMS.Controllers
         {
             _assignmentService = assignmentService;
         }
-     
 
-            [HttpPost]
+        [Authorize(Roles = "Instructor")]
+        [HttpPost]
             public async Task<IActionResult> CreateAssignment([FromBody] AssignmentDto assignmentDto, [FromQuery] int InstructorId)
             {
                 try
@@ -37,9 +38,6 @@ namespace LMS.Controllers
                 }
             }
         
-
-      
-
          [HttpGet("course/{courseId}")]
         public async Task<IActionResult> GetAssignmentsByCourse(int courseId)
         {

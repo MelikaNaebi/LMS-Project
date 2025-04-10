@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\instructor.html",
+      "PackagePath": "staticwebassets\\instructor.html"
+    },
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+      "PackagePath": "staticwebassets\\student.html"
+    },
+    {
+      "Id": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LMS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LMS.props",
+      "PackagePath": "build\\LMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LMS.props",
+      "PackagePath": "buildMultiTargeting\\LMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LMS.props",
+      "PackagePath": "buildTransitive\\LMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

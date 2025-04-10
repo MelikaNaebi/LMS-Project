@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "F:\\Projects\\LMSProject\\LMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|f:\\projects\\lmsproject\\lms\\lms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B32B30F-BDD7-456E-AD81-F8157EB92D1B}|LMS\\LMS.csproj|solutionrelative:lms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssignmentService.cs",
-              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\AssignmentService.cs",
-              "RelativeDocumentMoniker": "LMS\\Services\\AssignmentService.cs",
-              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\AssignmentService.cs",
-              "RelativeToolTip": "LMS\\Services\\AssignmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "LMS\\Controllers\\EnrollmentController.cs",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "LMS\\Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:20:00.911Z",
+              "WhenOpened": "2025-03-17T11:18:44.608Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "script.js",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+              "RelativeDocumentMoniker": "LMS\\wwwroot\\script.js",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+              "RelativeToolTip": "LMS\\wwwroot\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-16T21:39:39.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "student.html",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+              "RelativeDocumentMoniker": "LMS\\wwwroot\\student.html",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+              "RelativeToolTip": "LMS\\wwwroot\\student.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-16T21:37:55.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LMS\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LMS\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:41:43.845Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "LMS\\Services\\AdminService.cs",
-              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\AdminService.cs",
-              "RelativeToolTip": "LMS\\Services\\AdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Program.cs",
+              "RelativeDocumentMoniker": "LMS\\Program.cs",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Program.cs",
+              "RelativeToolTip": "LMS\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:19:59.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "LMS\\Services\\MessageService.cs",
-              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Services\\MessageService.cs*",
-              "RelativeToolTip": "LMS\\Services\\MessageService.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAApwAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:18:03.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T14:00:01.829Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MessageController.cs",
-              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\MessageController.cs",
-              "RelativeDocumentMoniker": "LMS\\Controllers\\MessageController.cs",
-              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\Controllers\\MessageController.cs",
-              "RelativeToolTip": "LMS\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:16:38.569Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Projects\\LMSProject\\LMS\\LMS\\appsettings.json",
+              "RelativeDocumentMoniker": "LMS\\appsettings.json",
+              "ToolTip": "F:\\Projects\\LMSProject\\LMS\\LMS\\appsettings.json",
+              "RelativeToolTip": "LMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T13:55:58.095Z"
             }
           ]
         }

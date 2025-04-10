@@ -1,12 +1,640 @@
 {
   "Version": 1,
-  "Hash": "eZ7Ax2D1jNqNuHejB3gajGjdFMgATL68XqHN6pKR3CA=",
+  "Hash": "G7VdLVc7w8EbRbGj+q4DYJIs4sfaDcUQbLGzSnkVOqw=",
   "Source": "LMS",
   "BasePath": "_content/LMS",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LMS\\wwwroot",
+      "Source": "LMS",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\admin.html",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "admin#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m6t8iqaf5f",
+      "Integrity": "vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin.html"
+    },
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\index.html",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6sc4g6lwoz",
+      "Integrity": "Sq4aO2dKYEL9oJkPqWQPUaufu1Piy6XCzOHADTqCfUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\instructor.html",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "instructor#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m6t8iqaf5f",
+      "Integrity": "vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\instructor.html"
+    },
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gafmlporou",
+      "Integrity": "6G9ObfGZXuMHNw9L129gyMBHK4wJJogZxDifei84BCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "student#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u2v6fwal2m",
+      "Integrity": "1rFF7dfNMyc7smOevkG4L/Lfq5IQpxjxq9HepO7OmUQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\student.html"
+    },
+    {
+      "Identity": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\style.css",
+      "SourceId": "LMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\",
+      "BasePath": "_content/LMS",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mqy5gcz0b3",
+      "Integrity": "Hi/UFyn/58BiDegwJjVV/9a/w2ZQtwymX2dfMPmUul8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "admin.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg="
+        }
+      ]
+    },
+    {
+      "Route": "admin.m6t8iqaf5f.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6t8iqaf5f"
+        },
+        {
+          "Name": "label",
+          "Value": "admin.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg="
+        }
+      ]
+    },
+    {
+      "Route": "index.6sc4g6lwoz.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sq4aO2dKYEL9oJkPqWQPUaufu1Piy6XCzOHADTqCfUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sc4g6lwoz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sq4aO2dKYEL9oJkPqWQPUaufu1Piy6XCzOHADTqCfUI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sq4aO2dKYEL9oJkPqWQPUaufu1Piy6XCzOHADTqCfUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sq4aO2dKYEL9oJkPqWQPUaufu1Piy6XCzOHADTqCfUI="
+        }
+      ]
+    },
+    {
+      "Route": "instructor.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\instructor.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:01:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg="
+        }
+      ]
+    },
+    {
+      "Route": "instructor.m6t8iqaf5f.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\instructor.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:01:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6t8iqaf5f"
+        },
+        {
+          "Name": "label",
+          "Value": "instructor.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vp9Vkn7hYtpTSmV5xJXv6epAE+i/2c4oCsn5ez0YNfg="
+        }
+      ]
+    },
+    {
+      "Route": "script.gafmlporou.js",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G9ObfGZXuMHNw9L129gyMBHK4wJJogZxDifei84BCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 22:07:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gafmlporou"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6G9ObfGZXuMHNw9L129gyMBHK4wJJogZxDifei84BCM="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G9ObfGZXuMHNw9L129gyMBHK4wJJogZxDifei84BCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 22:07:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6G9ObfGZXuMHNw9L129gyMBHK4wJJogZxDifei84BCM="
+        }
+      ]
+    },
+    {
+      "Route": "student.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1rFF7dfNMyc7smOevkG4L/Lfq5IQpxjxq9HepO7OmUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 13:53:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1rFF7dfNMyc7smOevkG4L/Lfq5IQpxjxq9HepO7OmUQ="
+        }
+      ]
+    },
+    {
+      "Route": "student.u2v6fwal2m.html",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\student.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1rFF7dfNMyc7smOevkG4L/Lfq5IQpxjxq9HepO7OmUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 13:53:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u2v6fwal2m"
+        },
+        {
+          "Name": "label",
+          "Value": "student.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1rFF7dfNMyc7smOevkG4L/Lfq5IQpxjxq9HepO7OmUQ="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hi/UFyn/58BiDegwJjVV/9a/w2ZQtwymX2dfMPmUul8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hi/UFyn/58BiDegwJjVV/9a/w2ZQtwymX2dfMPmUul8="
+        }
+      ]
+    },
+    {
+      "Route": "style.mqy5gcz0b3.css",
+      "AssetFile": "F:\\Projects\\LMSProject\\LMS\\LMS\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hi/UFyn/58BiDegwJjVV/9a/w2ZQtwymX2dfMPmUul8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 16:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mqy5gcz0b3"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hi/UFyn/58BiDegwJjVV/9a/w2ZQtwymX2dfMPmUul8="
+        }
+      ]
+    }
+  ]
 }

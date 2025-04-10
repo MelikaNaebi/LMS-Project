@@ -1,5 +1,6 @@
 ﻿using LMS.Interfaces;
 using LMS.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace LMS.Controllers
         {
             _enrollmentService = enrollmentService;
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("enroll")]
         public async Task<IActionResult> EnrollStudent(int studentId, int courseId)
         {
@@ -39,9 +40,16 @@ namespace LMS.Controllers
             return Ok(new { isEnrolled = result });
         }
 
+        [Authorize(Roles = "student")]
         [HttpGet("student/{studentId}/courses")]
         public async Task<IActionResult> GetCoursesByStudentId(int studentId)
         {
+
+            var userId = User.FindFirst("UserId")?.Value;  // 👈 گرفتن آیدی از توکن
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { message = "کاربر نامعتبر است" });
+            }
             var courses = await _enrollmentService.GetCoursesByStudentIdAsync(studentId);
             return Ok(courses);
         }

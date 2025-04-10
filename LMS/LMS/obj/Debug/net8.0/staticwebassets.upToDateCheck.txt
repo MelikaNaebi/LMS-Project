@@ -1,0 +1,6 @@
+wwwroot\admin.html
+wwwroot\index.html
+wwwroot\instructor.html
+wwwroot\script.js
+wwwroot\student.html
+wwwroot\style.css

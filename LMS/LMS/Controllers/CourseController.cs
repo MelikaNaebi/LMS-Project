@@ -2,6 +2,7 @@
 using LMS.Interfaces;
 using LMS.Models;
 using LMS.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS.Controllers
@@ -19,6 +20,8 @@ namespace LMS.Controllers
             _courseService = courseService;
             _genericService = genericService ?? throw new ArgumentNullException(nameof(genericService));
         }
+     
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> CreateCourse([FromBody] CourseDto courseDto)
         {

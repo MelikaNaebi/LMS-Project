@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>داشبورد دانشجو</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>دوره‌های من</h1>
+    <ul id="courses"></ul>
+
+    <!-- چک کردن توکن و نقش کاربر -->
+    <script>
+        // کنترل ورود و دسترسی
+        const token = localStorage.getItem("token");
+
+        function getUserRoleFromToken(token) {
+            const payload = JSON.parse(atob(token.split(".")[1]));
+            return payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+        }
+
+        if (getUserRoleFromToken(token) !== "Student") {
+            alert("دسترسی غیرمجاز!");
+            window.location.href = "index.html";
+        }
+
+        // توکن رو به درخواست‌ها اضافه می‌کنیم
+        async function loadCourses() {
+            try {
+                const response = await fetch("/api/courses/student", {
+                    method: "GET",
+                    headers: { Authorization: `Bearer ${token}` },
+                });
+
+                if (response.status === 401) {
+                    alert("نشست شما منقضی شده است. لطفاً دوباره وارد شوید.");
+                    window.location.href = "index.html";
+                }
+
+                const courses = await response.json();
+                document.getElementById("courses").innerHTML = courses
+                    .map((c) => `<li>${c.name}</li>`)
+                    .join("");
+            } catch (error) {
+                console.error("خطا در بارگذاری دوره‌ها:", error);
+                alert("خطا در بارگذاری داده‌ها!");
+            }
+        }
+
+        loadCourses();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
